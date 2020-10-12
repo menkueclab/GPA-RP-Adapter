@@ -191,10 +191,6 @@ Text Label 1600 3000 0    50   ~ 0
 GND
 Text Label 1550 3200 0    50   ~ 0
 TX_GATE_BUFFERED
-Wire Wire Line
-	4750 1500 5150 1500
-Text Label 4850 1500 0    50   ~ 0
-TX_GATE
 $Comp
 L 74xGxx:74LVC1G17 U?
 U 1 1 5F874439
@@ -294,4 +290,128 @@ Wire Wire Line
 Connection ~ 1800 3200
 Wire Wire Line
 	1800 3200 2300 3200
+Wire Wire Line
+	4250 1500 3900 1500
+Text Label 3900 1500 0    50   ~ 0
+TX_GATE
+Wire Wire Line
+	4750 1500 5150 1500
+Text Label 5000 1500 0    50   ~ 0
+TX_GATE_2
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F8539A5
+P 4500 3200
+F 0 "J?" H 4600 3082 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 3173 50  0000 L CNN
+F 2 "" H 4500 3200 50  0001 C CNN
+F 3 " ~" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3000 4950 3000
+Text Label 4800 3000 0    50   ~ 0
+GND
+Text Label 4750 3200 0    50   ~ 0
+TX_GATE_BUFFERED_2
+$Comp
+L 74xGxx:74LVC1G17 U?
+U 1 1 5F8539AE
+P 5750 3200
+F 0 "U?" H 5725 2933 50  0000 C CNN
+F 1 "74LVC1G17" H 5725 3024 50  0000 C CNN
+F 2 "" H 5750 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5750 3200 50  0001 C CNN
+	1    5750 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 3200 6800 3200
+Text Label 6400 3200 0    50   ~ 0
+TX_GATE_2
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5F8539B6
+P 6150 3800
+F 0 "J?" H 6230 3842 50  0000 L CNN
+F 1 "Conn_01x03" H 6230 3751 50  0000 L CNN
+F 2 "" H 6150 3800 50  0001 C CNN
+F 3 "~" H 6150 3800 50  0001 C CNN
+	1    6150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3800 5600 3800
+Text Label 5600 3800 0    50   ~ 0
+VCC
+Wire Wire Line
+	5950 3700 5600 3700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8539BF
+P 5600 3700
+F 0 "#PWR?" H 5600 3550 50  0001 C CNN
+F 1 "+3.3V" H 5615 3873 50  0000 C CNN
+F 2 "" H 5600 3700 50  0001 C CNN
+F 3 "" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8539C5
+P 5450 3900
+F 0 "#PWR?" H 5450 3750 50  0001 C CNN
+F 1 "+5V" H 5465 4073 50  0000 C CNN
+F 2 "" H 5450 3900 50  0001 C CNN
+F 3 "" H 5450 3900 50  0001 C CNN
+	1    5450 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3900 5950 3900
+$Comp
+L Device:C C?
+U 1 1 5F8539CC
+P 5700 4300
+F 0 "C?" H 5815 4346 50  0000 L CNN
+F 1 "10uF" H 5815 4255 50  0000 L CNN
+F 2 "" H 5738 4150 50  0001 C CNN
+F 3 "~" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4150 6050 4150
+Wire Wire Line
+	5700 4450 6050 4450
+Text Label 5900 4150 0    50   ~ 0
+VCC
+Text Label 5900 4450 0    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F8539D6
+P 4500 3750
+F 0 "J?" H 4418 3425 50  0000 C CNN
+F 1 "Conn_01x02" H 4418 3516 50  0000 C CNN
+F 2 "" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 3750 5000 3750
+Wire Wire Line
+	4700 3650 4950 3650
+Text Label 4800 3650 0    50   ~ 0
+GND
+Wire Wire Line
+	5000 3750 5000 3200
+Wire Wire Line
+	4700 3200 5000 3200
+Connection ~ 5000 3200
+Wire Wire Line
+	5000 3200 5500 3200
 $EndSCHEMATC
