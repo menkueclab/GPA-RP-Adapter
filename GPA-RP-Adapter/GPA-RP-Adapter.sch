@@ -414,4 +414,327 @@ Wire Wire Line
 Connection ~ 5000 3200
 Wire Wire Line
 	5000 3200 5500 3200
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85691D
+P 9750 1100
+F 0 "J?" H 9850 982 50  0000 L CNN
+F 1 "Analog In 0" H 9850 1073 50  0000 L CNN
+F 2 "" H 9750 1100 50  0001 C CNN
+F 3 " ~" H 9750 1100 50  0001 C CNN
+	1    9750 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1300 9300 1300
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85A408
+P 9750 1500
+F 0 "J?" H 9850 1382 50  0000 L CNN
+F 1 "Analog In 1" H 9850 1473 50  0000 L CNN
+F 2 "" H 9750 1500 50  0001 C CNN
+F 3 " ~" H 9750 1500 50  0001 C CNN
+	1    9750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 1700 9300 1700
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85C436
+P 9750 1900
+F 0 "J?" H 9850 1782 50  0000 L CNN
+F 1 "Analog In 2" H 9850 1873 50  0000 L CNN
+F 2 "" H 9750 1900 50  0001 C CNN
+F 3 " ~" H 9750 1900 50  0001 C CNN
+	1    9750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2100 9300 2100
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85C43D
+P 9750 2300
+F 0 "J?" H 9850 2182 50  0000 L CNN
+F 1 "Analog In 3" H 9850 2273 50  0000 L CNN
+F 2 "" H 9750 2300 50  0001 C CNN
+F 3 " ~" H 9750 2300 50  0001 C CNN
+	1    9750 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2500 9300 2500
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85F7DE
+P 9750 2700
+F 0 "J?" H 9850 2582 50  0000 L CNN
+F 1 "Analog Out 0" H 9850 2673 50  0000 L CNN
+F 2 "" H 9750 2700 50  0001 C CNN
+F 3 " ~" H 9750 2700 50  0001 C CNN
+	1    9750 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2900 9300 2900
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85F7E5
+P 9750 3100
+F 0 "J?" H 9850 2982 50  0000 L CNN
+F 1 "Analog Out 1" H 9850 3073 50  0000 L CNN
+F 2 "" H 9750 3100 50  0001 C CNN
+F 3 " ~" H 9750 3100 50  0001 C CNN
+	1    9750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3300 9300 3300
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85F7EC
+P 9750 3500
+F 0 "J?" H 9850 3382 50  0000 L CNN
+F 1 "Analog Out 2" H 9850 3473 50  0000 L CNN
+F 2 "" H 9750 3500 50  0001 C CNN
+F 3 " ~" H 9750 3500 50  0001 C CNN
+	1    9750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3700 9300 3700
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F85F7F3
+P 9750 3900
+F 0 "J?" H 9850 3782 50  0000 L CNN
+F 1 "Analog Out 3" H 9850 3873 50  0000 L CNN
+F 2 "" H 9750 3900 50  0001 C CNN
+F 3 " ~" H 9750 3900 50  0001 C CNN
+	1    9750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4100 9300 4100
+Wire Wire Line
+	6800 1700 7300 1700
+Wire Wire Line
+	6300 1700 5750 1700
+Wire Wire Line
+	6300 1600 5750 1600
+Wire Wire Line
+	6800 1600 7300 1600
+Text Label 6850 1700 0    50   ~ 0
+Analog_In_0
+Text Label 5750 1700 0    50   ~ 0
+Analog_In_1
+Text Label 6850 1600 0    50   ~ 0
+Analog_In_2
+Text Label 5750 1600 0    50   ~ 0
+Analog_In_3
+Wire Wire Line
+	6800 1500 7300 1500
+Wire Wire Line
+	6300 1500 5750 1500
+Wire Wire Line
+	6800 1400 7300 1400
+Wire Wire Line
+	6300 1400 5750 1400
+Text Label 6850 1500 0    50   ~ 0
+Analog_Out_0
+Text Label 5750 1500 0    50   ~ 0
+Analog_Out_1
+Text Label 6850 1400 0    50   ~ 0
+Analog_Out_2
+Text Label 5750 1400 0    50   ~ 0
+Analog_Out_3
+Wire Wire Line
+	6800 2200 7350 2200
+Wire Wire Line
+	6800 2100 7350 2100
+Wire Wire Line
+	6300 2100 5750 2100
+Wire Wire Line
+	6300 2200 5750 2200
+Text Label 6850 2200 0    50   ~ 0
+MOSI_RP
+Text Label 5750 2200 0    50   ~ 0
+MISO_RP
+Text Label 6850 2100 0    50   ~ 0
+SCK_RP
+Text Label 5750 2100 0    50   ~ 0
+CS_RP
+Wire Wire Line
+	9550 1100 9000 1100
+Wire Wire Line
+	9550 1500 9000 1500
+Wire Wire Line
+	9550 1900 9000 1900
+Wire Wire Line
+	9550 2300 9000 2300
+Wire Wire Line
+	9550 2700 9000 2700
+Wire Wire Line
+	9550 3100 9000 3100
+Wire Wire Line
+	9550 3500 9000 3500
+Wire Wire Line
+	9550 3900 9000 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5F88BEAC
+P 9300 1300
+F 0 "#PWR?" H 9300 1050 50  0001 C CNN
+F 1 "GND" H 9150 1300 50  0000 C CNN
+F 2 "" H 9300 1300 50  0001 C CNN
+F 3 "" H 9300 1300 50  0001 C CNN
+	1    9300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88C53A
+P 9300 1700
+F 0 "#PWR?" H 9300 1450 50  0001 C CNN
+F 1 "GND" H 9150 1700 50  0000 C CNN
+F 2 "" H 9300 1700 50  0001 C CNN
+F 3 "" H 9300 1700 50  0001 C CNN
+	1    9300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F88EB10
+P 9300 2100
+F 0 "#PWR?" H 9300 1850 50  0001 C CNN
+F 1 "GND" H 9150 2100 50  0000 C CNN
+F 2 "" H 9300 2100 50  0001 C CNN
+F 3 "" H 9300 2100 50  0001 C CNN
+	1    9300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8911C4
+P 9300 2500
+F 0 "#PWR?" H 9300 2250 50  0001 C CNN
+F 1 "GND" H 9150 2500 50  0000 C CNN
+F 2 "" H 9300 2500 50  0001 C CNN
+F 3 "" H 9300 2500 50  0001 C CNN
+	1    9300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F893825
+P 9300 2900
+F 0 "#PWR?" H 9300 2650 50  0001 C CNN
+F 1 "GND" H 9150 2900 50  0000 C CNN
+F 2 "" H 9300 2900 50  0001 C CNN
+F 3 "" H 9300 2900 50  0001 C CNN
+	1    9300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F895DFC
+P 9300 3300
+F 0 "#PWR?" H 9300 3050 50  0001 C CNN
+F 1 "GND" H 9150 3300 50  0000 C CNN
+F 2 "" H 9300 3300 50  0001 C CNN
+F 3 "" H 9300 3300 50  0001 C CNN
+	1    9300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F898441
+P 9300 3700
+F 0 "#PWR?" H 9300 3450 50  0001 C CNN
+F 1 "GND" H 9150 3700 50  0000 C CNN
+F 2 "" H 9300 3700 50  0001 C CNN
+F 3 "" H 9300 3700 50  0001 C CNN
+	1    9300 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F89AAEA
+P 9300 4100
+F 0 "#PWR?" H 9300 3850 50  0001 C CNN
+F 1 "GND" H 9150 4100 50  0000 C CNN
+F 2 "" H 9300 4100 50  0001 C CNN
+F 3 "" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	1    0    0    -1  
+$EndComp
+Text Label 9000 1100 0    50   ~ 0
+Analog_In_0
+Text Label 9000 1500 0    50   ~ 0
+Analog_In_1
+Text Label 9000 1900 0    50   ~ 0
+Analog_In_2
+Text Label 9000 2300 0    50   ~ 0
+Analog_In_3
+Text Label 9000 2700 0    50   ~ 0
+Analog_Out_0
+Text Label 9000 3100 0    50   ~ 0
+Analog_Out_1
+Text Label 9000 3500 0    50   ~ 0
+Analog_Out_2
+Text Label 9000 3900 0    50   ~ 0
+Analog_Out_3
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5F8A02F8
+P 9550 5200
+F 0 "J?" H 9600 5517 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9600 5426 50  0000 C CNN
+F 2 "" H 9550 5200 50  0001 C CNN
+F 3 "~" H 9550 5200 50  0001 C CNN
+	1    9550 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5100 8750 5100
+Wire Wire Line
+	9850 5100 10500 5100
+Wire Wire Line
+	9850 5200 10500 5200
+Wire Wire Line
+	9350 5200 8750 5200
+Text Label 9950 5100 0    50   ~ 0
+SCK_RP
+Text Label 8750 5100 0    50   ~ 0
+CS_RP
+Text Label 8750 5200 0    50   ~ 0
+MISO_RP
+Text Label 9950 5200 0    50   ~ 0
+MOSI_RP
+$Comp
+L power:GND #PWR?
+U 1 1 5F8B358C
+P 9350 5300
+F 0 "#PWR?" H 9350 5050 50  0001 C CNN
+F 1 "GND" H 9200 5300 50  0000 C CNN
+F 2 "" H 9350 5300 50  0001 C CNN
+F 3 "" H 9350 5300 50  0001 C CNN
+	1    9350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8BBA00
+P 9850 5300
+F 0 "#PWR?" H 9850 5050 50  0001 C CNN
+F 1 "GND" H 10000 5300 50  0000 C CNN
+F 2 "" H 9850 5300 50  0001 C CNN
+F 3 "" H 9850 5300 50  0001 C CNN
+	1    9850 5300
+	1    0    0    -1  
+$EndComp
+Text Notes 900  5600 0    50   ~ 0
+Fan: https://www.mouser.de/ProductDetail/Nidec-Copal/F310R-05LC?qs=XeJtXLiO41To11w5H%2F%252BD5Q%3D%3D
 $EndSCHEMATC
