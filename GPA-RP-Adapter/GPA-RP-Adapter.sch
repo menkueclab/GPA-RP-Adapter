@@ -735,6 +735,94 @@ F 3 "" H 9850 5300 50  0001 C CNN
 	1    9850 5300
 	1    0    0    -1  
 $EndComp
-Text Notes 900  5600 0    50   ~ 0
+Text Notes 800  6300 0    50   ~ 0
 Fan: https://www.mouser.de/ProductDetail/Nidec-Copal/F310R-05LC?qs=XeJtXLiO41To11w5H%2F%252BD5Q%3D%3D
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F8527DE
+P 850 5800
+F 0 "J?" H 768 5475 50  0000 C CNN
+F 1 "PWR_Fan" H 768 5566 50  0000 C CNN
+F 2 "" H 850 5800 50  0001 C CNN
+F 3 "~" H 850 5800 50  0001 C CNN
+	1    850  5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F859B5B
+P 1450 5750
+F 0 "C?" H 1565 5796 50  0000 L CNN
+F 1 "10uF" H 1565 5705 50  0000 L CNN
+F 2 "" H 1488 5600 50  0001 C CNN
+F 3 "~" H 1450 5750 50  0001 C CNN
+	1    1450 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5900 1250 5900
+Wire Wire Line
+	1250 5900 1250 5800
+Wire Wire Line
+	1250 5800 1050 5800
+Wire Wire Line
+	1050 5700 1250 5700
+Wire Wire Line
+	1250 5700 1250 5600
+Wire Wire Line
+	1250 5600 1450 5600
+$Comp
+L Device:L L?
+U 1 1 5F868675
+P 2000 5600
+F 0 "L?" V 1819 5600 50  0000 C CNN
+F 1 "L" V 1910 5600 50  0000 C CNN
+F 2 "" H 2000 5600 50  0001 C CNN
+F 3 "~" H 2000 5600 50  0001 C CNN
+	1    2000 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5F869FCB
+P 2000 5900
+F 0 "L?" V 1819 5900 50  0000 C CNN
+F 1 "L" V 1910 5900 50  0000 C CNN
+F 2 "" H 2000 5900 50  0001 C CNN
+F 3 "~" H 2000 5900 50  0001 C CNN
+	1    2000 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 5600 1450 5600
+Connection ~ 1450 5600
+Wire Wire Line
+	1450 5900 1850 5900
+Connection ~ 1450 5900
+$Comp
+L power:GND #PWR?
+U 1 1 5F8773B6
+P 2350 5900
+F 0 "#PWR?" H 2350 5650 50  0001 C CNN
+F 1 "GND" H 2355 5727 50  0000 C CNN
+F 2 "" H 2350 5900 50  0001 C CNN
+F 3 "" H 2350 5900 50  0001 C CNN
+	1    2350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5900 2350 5900
+Wire Wire Line
+	2150 5600 2350 5600
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8825B5
+P 2350 5600
+F 0 "#PWR?" H 2350 5450 50  0001 C CNN
+F 1 "+5V" H 2365 5773 50  0000 C CNN
+F 2 "" H 2350 5600 50  0001 C CNN
+F 3 "" H 2350 5600 50  0001 C CNN
+	1    2350 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
