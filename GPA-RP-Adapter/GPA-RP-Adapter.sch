@@ -1,0 +1,297 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x13_Odd_Even J?
+U 1 1 5F854DA9
+P 4550 1700
+F 0 "J?" H 4600 2517 50  0000 C CNN
+F 1 "Extension Connector E1" H 4600 2426 50  0000 C CNN
+F 2 "" H 4550 1700 50  0001 C CNN
+F 3 "~" H 4550 1700 50  0001 C CNN
+	1    4550 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:RJ45 J?
+U 1 1 5F856621
+P 1500 1700
+F 0 "J?" H 1557 2367 50  0000 C CNN
+F 1 "RJ45" H 1557 2276 50  0000 C CNN
+F 2 "" V 1500 1725 50  0001 C CNN
+F 3 "~" V 1500 1725 50  0001 C CNN
+	1    1500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1300 2650 1300
+Wire Wire Line
+	1900 1400 2650 1400
+Wire Wire Line
+	1900 1500 2650 1500
+Wire Wire Line
+	1900 1700 2650 1700
+Wire Wire Line
+	1900 2000 2750 2000
+Wire Wire Line
+	2750 2000 2750 1800
+Wire Wire Line
+	1900 1800 2750 1800
+Wire Wire Line
+	2750 1600 2750 1800
+Wire Wire Line
+	1900 1600 2750 1600
+Connection ~ 2750 1800
+Text Label 2500 1700 0    50   ~ 0
+CLK
+Text Label 2500 1500 0    50   ~ 0
+MO
+Text Label 2500 1400 0    50   ~ 0
+CS
+Text Label 2500 1300 0    50   ~ 0
+MI
+Text Label 2500 1800 0    50   ~ 0
+GND
+Wire Wire Line
+	1900 1900 2850 1900
+Wire Wire Line
+	2850 1900 2850 1800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F85DD65
+P 2850 1800
+F 0 "#PWR?" H 2850 1650 50  0001 C CNN
+F 1 "+3.3V" H 2865 1973 50  0000 C CNN
+F 2 "" H 2850 1800 50  0001 C CNN
+F 3 "" H 2850 1800 50  0001 C CNN
+	1    2850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2300 3750 2200
+Wire Wire Line
+	5350 2300 5350 2200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F85F722
+P 3750 2200
+F 0 "#PWR?" H 3750 2050 50  0001 C CNN
+F 1 "+3.3V" H 3765 2373 50  0000 C CNN
+F 2 "" H 3750 2200 50  0001 C CNN
+F 3 "" H 3750 2200 50  0001 C CNN
+	1    3750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F85FC11
+P 5350 2200
+F 0 "#PWR?" H 5350 2050 50  0001 C CNN
+F 1 "+3.3V" H 5365 2373 50  0000 C CNN
+F 2 "" H 5350 2200 50  0001 C CNN
+F 3 "" H 5350 2200 50  0001 C CNN
+	1    5350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2300 3750 2300
+Wire Wire Line
+	4750 2300 5350 2300
+Wire Wire Line
+	4750 1100 5100 1100
+Wire Wire Line
+	4250 1100 3900 1100
+Text Label 4950 1100 0    50   ~ 0
+GND
+Text Label 3900 1100 0    50   ~ 0
+GND
+NoConn ~ 4250 1200
+NoConn ~ 4250 1300
+NoConn ~ 4250 1400
+NoConn ~ 4750 1200
+NoConn ~ 4750 1300
+NoConn ~ 4750 1400
+NoConn ~ 4550 2050
+$Comp
+L Connector_Generic:Conn_02x13_Odd_Even J?
+U 1 1 5F866F58
+P 6600 1700
+F 0 "J?" H 6650 875 50  0000 C CNN
+F 1 "Extension Connector E2" H 6650 966 50  0000 C CNN
+F 2 "" H 6600 1700 50  0001 C CNN
+F 3 "~" H 6600 1700 50  0001 C CNN
+	1    6600 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 2300 7550 2300
+Wire Wire Line
+	7550 2300 7550 2200
+$Comp
+L power:+5V #PWR?
+U 1 1 5F867656
+P 7550 2200
+F 0 "#PWR?" H 7550 2050 50  0001 C CNN
+F 1 "+5V" H 7565 2373 50  0000 C CNN
+F 2 "" H 7550 2200 50  0001 C CNN
+F 3 "" H 7550 2200 50  0001 C CNN
+	1    7550 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1100 7300 1100
+Wire Wire Line
+	6300 1100 5700 1100
+Text Label 5700 1100 0    50   ~ 0
+GND
+Text Label 7150 1100 0    50   ~ 0
+GND
+Wire Wire Line
+	4750 1900 5150 1900
+Wire Wire Line
+	4750 1800 5150 1800
+Wire Wire Line
+	4750 1700 5150 1700
+Wire Wire Line
+	4750 1600 5150 1600
+Text Label 5000 1900 0    50   ~ 0
+CLK
+Text Label 5000 1800 0    50   ~ 0
+CS
+Text Label 5000 1700 0    50   ~ 0
+MO
+Text Label 5000 1600 0    50   ~ 0
+MI
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F8707B8
+P 1300 3200
+F 0 "J?" H 1400 3082 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1400 3173 50  0000 L CNN
+F 2 "" H 1300 3200 50  0001 C CNN
+F 3 " ~" H 1300 3200 50  0001 C CNN
+	1    1300 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 3000 1750 3000
+Text Label 1600 3000 0    50   ~ 0
+GND
+Text Label 1550 3200 0    50   ~ 0
+TX_GATE_BUFFERED
+Wire Wire Line
+	4750 1500 5150 1500
+Text Label 4850 1500 0    50   ~ 0
+TX_GATE
+$Comp
+L 74xGxx:74LVC1G17 U?
+U 1 1 5F874439
+P 2550 3200
+F 0 "U?" H 2525 2933 50  0000 C CNN
+F 1 "74LVC1G17" H 2525 3024 50  0000 C CNN
+F 2 "" H 2550 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2550 3200 50  0001 C CNN
+	1    2550 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 3200 3600 3200
+Text Label 3200 3200 0    50   ~ 0
+TX_GATE
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5F8779F9
+P 2950 3800
+F 0 "J?" H 3030 3842 50  0000 L CNN
+F 1 "Conn_01x03" H 3030 3751 50  0000 L CNN
+F 2 "" H 2950 3800 50  0001 C CNN
+F 3 "~" H 2950 3800 50  0001 C CNN
+	1    2950 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3800 2400 3800
+Text Label 2400 3800 0    50   ~ 0
+VCC
+Wire Wire Line
+	2750 3700 2400 3700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F87A474
+P 2400 3700
+F 0 "#PWR?" H 2400 3550 50  0001 C CNN
+F 1 "+3.3V" H 2415 3873 50  0000 C CNN
+F 2 "" H 2400 3700 50  0001 C CNN
+F 3 "" H 2400 3700 50  0001 C CNN
+	1    2400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F87AE4A
+P 2250 3900
+F 0 "#PWR?" H 2250 3750 50  0001 C CNN
+F 1 "+5V" H 2265 4073 50  0000 C CNN
+F 2 "" H 2250 3900 50  0001 C CNN
+F 3 "" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3900 2750 3900
+$Comp
+L Device:C C?
+U 1 1 5F87C0F2
+P 2500 4300
+F 0 "C?" H 2615 4346 50  0000 L CNN
+F 1 "10uF" H 2615 4255 50  0000 L CNN
+F 2 "" H 2538 4150 50  0001 C CNN
+F 3 "~" H 2500 4300 50  0001 C CNN
+	1    2500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4150 2850 4150
+Wire Wire Line
+	2500 4450 2850 4450
+Text Label 2700 4150 0    50   ~ 0
+VCC
+Text Label 2700 4450 0    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F87EE61
+P 1300 3750
+F 0 "J?" H 1218 3425 50  0000 C CNN
+F 1 "Conn_01x02" H 1218 3516 50  0000 C CNN
+F 2 "" H 1300 3750 50  0001 C CNN
+F 3 "~" H 1300 3750 50  0001 C CNN
+	1    1300 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 3750 1800 3750
+Wire Wire Line
+	1500 3650 1750 3650
+Text Label 1600 3650 0    50   ~ 0
+GND
+Wire Wire Line
+	1800 3750 1800 3200
+Wire Wire Line
+	1500 3200 1800 3200
+Connection ~ 1800 3200
+Wire Wire Line
+	1800 3200 2300 3200
+$EndSCHEMATC
